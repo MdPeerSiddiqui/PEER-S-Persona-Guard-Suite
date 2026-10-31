@@ -1,0 +1,125 @@
+[
+  {
+    "profile_id": "PROF-001",
+    "username": "peer_siddiqui_ce0",
+    "display_name": "Mohammed Peer Siddiqui (CEO)",
+    "account_age_days": 4,
+    "followers": 14,
+    "following": 820,
+    "ratio": 58.57,
+    "posts": 2,
+    "is_verified": false,
+    "threat_score": 100,
+    "risk_tier": "CRITICAL",
+    "verdict": "CRITICAL_IMPERSONATOR_THREAT",
+    "penalties": [
+      "EXECUTIVE_IMPERSONATION: Mimics Mohammed Peer Siddiqui (@peer_siddiqui_real) [Handle Sim: 85.7%, Name Sim: 88.0%] (+35)",
+      "EXTREME_ACCOUNT_VELOCITY: Account age 4 days (< 7 days) (+35)",
+      "EXTREME_FOLLOW_RATIO: Following-to-Follower ratio 58.6:1 (> 50:1) (+30)",
+      "MINIMAL_ENGAGEMENT: Only 2 posts published (< 5 posts) (+15)",
+      "MALICIOUS_EXTERNAL_LINK: Links to unverified external domain (http://sqrock-vip-invest.evil-gateway.net) (+25)"
+    ],
+    "trust_factors": [],
+    "executive_collisions": [
+      {
+        "target_entity": "Mohammed Peer Siddiqui",
+        "target_handle": "@peer_siddiqui_real",
+        "target_role": "Founder & Chief Executive Officer",
+        "handle_similarity": 85.7,
+        "name_similarity": 88.0,
+        "risk_flag": "HOMOGLYPH_OR_TYPOSQUAT_COLLISION"
+      }
+    ],
+    "audit_timestamp": "2026-10-31T15:15:03.017718+00:00"
+  },
+  {
+    "profile_id": "PROF-002",
+    "username": "airdrop_reward_bot2026",
+    "display_name": "Claim $5000 USDT Now",
+    "account_age_days": 7,
+    "followers": 8,
+    "following": 980,
+    "ratio": 122.5,
+    "posts": 1,
+    "is_verified": false,
+    "threat_score": 100,
+    "risk_tier": "CRITICAL",
+    "verdict": "HIGH_RISK_AUTOMATED_BOT",
+    "penalties": [
+      "HIGH_ACCOUNT_VELOCITY: Account age 7 days (< 30 days) (+25)",
+      "EXTREME_FOLLOW_RATIO: Following-to-Follower ratio 122.5:1 (> 50:1) (+30)",
+      "DEFAULT_AVATAR: Missing custom profile image / default egg avatar (+20)",
+      "INCOMPLETE_BIO: Default or empty biography (+15)",
+      "MINIMAL_ENGAGEMENT: Only 1 posts published (< 5 posts) (+15)",
+      "MALICIOUS_EXTERNAL_LINK: Links to unverified external domain (http://free-tokens-airdrop.xyz/claim) (+25)"
+    ],
+    "trust_factors": [],
+    "executive_collisions": [],
+    "audit_timestamp": "2026-10-31T15:15:03.017994+00:00"
+  },
+  {
+    "profile_id": "PROF-003",
+    "username": "sarah_recruiter_tech",
+    "display_name": "Sarah Jenkins | Global Tech Talent",
+    "account_age_days": 26,
+    "followers": 42,
+    "following": 740,
+    "ratio": 17.62,
+    "posts": 4,
+    "is_verified": false,
+    "threat_score": 60,
+    "risk_tier": "HIGH",
+    "verdict": "SUSPICIOUS_PROFILE_EVALUATION",
+    "penalties": [
+      "HIGH_ACCOUNT_VELOCITY: Account age 26 days (< 30 days) (+25)",
+      "HIGH_FOLLOW_RATIO: Following-to-Follower ratio 17.6:1 (> 10:1) (+20)",
+      "MINIMAL_ENGAGEMENT: Only 4 posts published (< 5 posts) (+15)"
+    ],
+    "trust_factors": [],
+    "executive_collisions": [],
+    "audit_timestamp": "2026-10-31T15:15:03.018314+00:00"
+  },
+  {
+    "profile_id": "PROF-004",
+    "username": "peer_siddiqui_real",
+    "display_name": "Mohammed Peer Siddiqui",
+    "account_age_days": 1420,
+    "followers": 18400,
+    "following": 450,
+    "ratio": 0.02,
+    "posts": 720,
+    "is_verified": true,
+    "threat_score": 0,
+    "risk_tier": "LOW",
+    "verdict": "AUTHENTIC_ORGANIC_ACCOUNT",
+    "penalties": [],
+    "trust_factors": [
+      "ESTABLISHED_ACCOUNT: Longevity 1420 days (> 1 year) (-15)",
+      "HIGH_AUTHORITY_RATIO: Strong organic audience (18400 followers) (-15)",
+      "ACTIVE_HISTORY: Significant posting history (720 posts) (-10)",
+      "PLATFORM_VERIFIED: Cryptographically validated corporate badge"
+    ],
+    "executive_collisions": [],
+    "audit_timestamp": "2026-10-31T15:15:03.018515+00:00"
+  },
+  {
+    "profile_id": "PROF-005",
+    "username": "dev_arjun_patel",
+    "display_name": "Arjun Patel",
+    "account_age_days": 24,
+    "followers": 38,
+    "following": 52,
+    "ratio": 1.37,
+    "posts": 14,
+    "is_verified": false,
+    "threat_score": 25,
+    "risk_tier": "MEDIUM",
+    "verdict": "ANOMALOUS_PROFILE_MONITOR",
+    "penalties": [
+      "HIGH_ACCOUNT_VELOCITY: Account age 24 days (< 30 days) (+25)"
+    ],
+    "trust_factors": [],
+    "executive_collisions": [],
+    "audit_timestamp": "2026-10-31T15:15:03.018681+00:00"
+  }
+]
